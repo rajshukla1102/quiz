@@ -96,7 +96,7 @@ footer p {
   }
   ul li {
     margin: 1rem 4px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .main{
     position: absolute;
@@ -111,6 +111,10 @@ footer p {
     position: absolute;
     top: 43px;
     max-width: 350px;
+  }
+  ul li {
+    margin: 1rem 4px;
+    font-size: 1rem;
   }
   h2 {
     padding: 11px;
