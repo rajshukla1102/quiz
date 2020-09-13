@@ -58,6 +58,17 @@ button {
 button:hover {
   background-color: #11664f;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
+footer p {
+  color: rgb(20, 19, 19);
+  font-size: 20px;
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
   body {
     margin: 0;
@@ -97,6 +108,9 @@ button:hover {
   h2 {
     padding: 11px;
     font-size: 15px;
+  }
+  footer p {
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 350px) {
