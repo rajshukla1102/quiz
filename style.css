@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
   margin: 0;
   background: #2980b9;
-  /* fallback for old browsers */
   background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .main {
@@ -100,12 +98,18 @@ footer p {
     margin: 1rem 4px;
     font-size: 1.5rem;
   }
+  .main{
+    position: absolute;
+    top: 45px;
+  }
 }
 @media screen and (max-width: 450px) {
   .header {
     padding: 13px;
   }
   .main {
+    position: absolute;
+    top: 43px;
     max-width: 350px;
   }
   h2 {
@@ -119,10 +123,14 @@ footer p {
 @media screen and (max-width: 350px) {
   .main {
     max-width: 300px;
+    position: absolute;
+    top: 41px;
   }
 }
 @media screen and (max-width: 280px) {
   .main {
     max-width: 280px;
+    position: absolute;
+    top: 41px;
   }
 }
